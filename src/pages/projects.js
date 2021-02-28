@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from './../components/Layout'
 import Heading from './../components/Heading'
 
-const Project = () => {
+const Projects = () => {
   return (
     <Layout>
       <Heading header="Projects" />
@@ -10,4 +10,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Projects

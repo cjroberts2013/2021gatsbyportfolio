@@ -19,10 +19,10 @@ export default function Footer() {
                         </div>
                         <div className="-mx-4">
                             <div className="flex mx-4">
-                                <a rel="noreferrer" href="https://twitter.com/cjrobertstech" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="Twitter"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
-                                <a rel="noreferrer" href="https://linkedin.com/in/cjrobertstech" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="LinkedIn"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                                <a rel="noreferrer" href="https://github.com/cjroberts2013" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="Github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                                <a rel="noreferrer" href="https://instagram.com/cj_roberts" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="Instagram"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+                                <a rel="noreferrer" aria-label="Twitter" href="https://twitter.com/cjrobertstech" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="Twitter"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                                <a rel="noreferrer" aria-label="Linkedin" href="https://linkedin.com/in/cjrobertstech" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="LinkedIn"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                                <a rel="noreferrer" aria-label="Github" href="https://github.com/cjroberts2013" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="Github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                                <a rel="noreferrer" aria-label="Instagram" href="https://instagram.com/cj_roberts" className="p-1 text-inverted text-xl text-gray-600 hover:text-green-500" target="_blank" title="Instagram"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
                             </div>
                         </div>
                     </div>
@@ -30,11 +30,11 @@ export default function Footer() {
                         <div className="md:mx-auto my-4">
                             <p className="mb-6 font-semibold">Quick Links</p>
                             <div className="grid gap-2">
-                                <p><Link className="text-inverted hover:text-highlight focus:text-highlight" to="/">Home</Link></p>
-                                <p><Link className="text-inverted hover:text-highlight focus:text-highlight" to="/about">About</Link></p>
-                                <p><Link className="text-inverted hover:text-highlight focus:text-highlight" to="/project">Projects</Link></p>
-                                <p><Link className="text-inverted hover:text-highlight focus:text-highlight" to="/blog">Blog</Link></p>
-                                <p><Link className="text-inverted hover:text-highlight focus:text-highlight" to="/contact">Contact</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/">Home</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/about">About</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/projects">Projects</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/blog">Blog</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/contact">Contact</Link></p>
                             </div>
                         </div>
                     </div>
